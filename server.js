@@ -5,10 +5,10 @@ var path = require('path');
 var app = express();
 app.use(morgan('combined'));
 
-var articleone = {
-    title: "Article One | MuKesh Nayak",
-    heading: "Creating First HTML File",
-    date:"August 2, 2017",
+var articleOne = {
+    title: 'Article One | MuKesh Nayak',
+    heading: 'Creating First HTML File',
+    date:'August 2, 2017',
     content: `
             <p>This is the content of this first article. This is the content of this first article. This is the content of this first article. This is the content of this first article. This is the content of this first article. This is the content of this first article. This is the content of this first article. This is the content of this first article. This is the content of this first article. This is the content of this first article. This is the content of this first article. This is the content of this first article. This is the content of this first article. This is the content of this first article. This is the content of this first article. This is the content of this first article. 
             </p>
@@ -65,7 +65,7 @@ app.get('/', function (req, res) {
 });
 
 app.get('/article-one', function (req, res) {
-  res.send(createTemplate(articleone));
+  res.send(createTemplate(articleOne));
 });
 
 app.get('/article-two', function (req, res) {
