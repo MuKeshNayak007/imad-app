@@ -40,7 +40,7 @@ var articles = {
     'article-three' : {
         
            title: 'Article Three | MuKesh Nayak',
-    heading: 'Creating Three HTML File',
+    heading: 'Creating Third HTML File',
     date:'August 5, 2017',
     content: `
             <p>This is the content of this THIRD article. This is the content of this first article. This is the content of this first article. This is the content of this first article. This is the content of this first article. This is the content of this first article. This is the content of this first article. This is the content of this first article. This is the content of this first article. This is the content of this first article. This is the content of this first article. This is the content of this first article. This is the content of this first article. This is the content of this first article. This is the content of this first article. This is the content of this first article. 
